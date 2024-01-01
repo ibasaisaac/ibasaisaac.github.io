@@ -68,7 +68,7 @@ const config = {
   ],
   certifications: [
     {
-      name: 'IUT Intra University Programming Contest- 2022',
+      name: 'IUT Intra University Girls’ Programming Contest- 2022',
       body: '4th Position',
       year: 'March 2022',
     },
@@ -105,11 +105,11 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'luxury',
+    defaultTheme: 'wireframe',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: true,
+    disableSwitch: false,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -162,14 +162,14 @@ const config = {
       '--rounded-box': '3rem',
       '--rounded-btn': '3rem',
     },
-  };
+  },
 
   // Optional Footer. Supports plain text or HTML.
-//   footer: `Made with <a 
-//       class="text-primary" href="https://github.com/arifszn/gitprofile"
-//       target="_blank"
-//       rel="noreferrer"
-//     >GitProfile</a> and ❤️`,
-// };
+  footer: `Made with <a 
+      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      target="_blank"
+      rel="noreferrer"
+    >GitProfile</a> and ❤️`,
+};
 
 export default config;
