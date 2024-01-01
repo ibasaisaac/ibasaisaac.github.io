@@ -24,60 +24,55 @@ const config = {
       'https://publuu.com/flip-book/351084/803804', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
+    'C++',
+    'Python',
+    'Java',
     'React.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Flutter',
+    'MySQL',
+    'Firebase',
+    'Git',
+    'Figma',
   ],
-  experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
-  /* certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
-    },
-  ], */
+  // experiences: [
+  //   {
+  //     company: 'Battery Low Interactive',
+  //     position: 'Position',
+  //     from: 'September 2021',
+  //     to: 'Present',
+  //     companyLink: 'https://example.com',
+  //   },
+  // ],
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
+      institution: 'Islamic University of Technology',
+      degree: 'B.Sc. in Computer Science and Engineering',
+      from: '2020',
+      to: 'Present',
+    },
+    {
+      institution: 'Viqarunnisa Noon School and College',
+      degree: 'HSC',
+      from: '2017',
       to: '2019',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Viqarunnisa Noon School and College',
+      degree: 'SSC',
+      from: '2007',
+      to: '2017',
     },
   ],
-
+  certifications: [
+    {
+      name: 'IUT Intra University Girls’ Programming Contest- 2022',
+      body: '4th Position',
+      year: 'March 2022',
+    },
+  ],
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
